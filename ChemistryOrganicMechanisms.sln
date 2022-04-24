@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemistryOrganicMechanisms", "ChemistryOrganicMechanisms\ChemistryOrganicMechanisms.csproj", "{FFED4239-C7CA-4258-B15F-7B3A024AE150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Test|Any CPU = Test|Any CPU
+		Test|x64 = Test|x64
+		Test|x86 = Test|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Debug|x64.ActiveCfg = Debug|x64
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Debug|x64.Build.0 = Debug|x64
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Debug|x86.ActiveCfg = Debug|x86
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Debug|x86.Build.0 = Debug|x86
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Release|x64.ActiveCfg = Release|x64
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Release|x64.Build.0 = Release|x64
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Release|x86.ActiveCfg = Release|x86
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Release|x86.Build.0 = Release|x86
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Test|Any CPU.Build.0 = Test|Any CPU
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Test|x64.ActiveCfg = Test|x64
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Test|x64.Build.0 = Test|x64
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Test|x86.ActiveCfg = Test|x86
+		{FFED4239-C7CA-4258-B15F-7B3A024AE150}.Test|x86.Build.0 = Test|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76B0F2CD-0EC0-488D-B9A1-6E450974FAAF}
+	EndGlobalSection
+EndGlobal
