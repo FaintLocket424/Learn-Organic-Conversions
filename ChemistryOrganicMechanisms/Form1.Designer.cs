@@ -307,9 +307,9 @@
             this.RichTextBox_Info.Size = new System.Drawing.Size(269, 146);
             this.RichTextBox_Info.TabIndex = 13;
             this.RichTextBox_Info.TabStop = false;
-            this.RichTextBox_Info.Text = "Info:\nCreated By Matthew\n\nNotes:\nAny Halogens will be Bromine\nAny Shortened Words" +
-    " will end with a .\nThe input must exactly match the input to be counted as corre" +
-    "ct (not case sensitive)";
+            this.RichTextBox_Info.Text = "Info:\nCreated By FaintLocket424\n\nNotes:\nAny Halogens will be Bromine\nAny Shortene" +
+    "d Words will end with a .\nThe input must exactly match the input to be counted a" +
+    "s correct (not case sensitive)";
             // 
             // Form_Main
             // 
@@ -343,7 +343,7 @@
             this.Controls.Add(this.Combo_Category);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Main";
-            this.Text = "Organic Chemistry Mechanisms";
+            this.Text = "Organic Chemistry Conversions";
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox_Mechanism)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

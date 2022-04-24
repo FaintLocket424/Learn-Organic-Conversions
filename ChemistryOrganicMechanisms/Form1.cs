@@ -62,6 +62,22 @@ namespace ChemistryOrganicMechanisms
 
         private void Button_New_Conversion_Click(object sender, EventArgs e)
         {
+            TextBox_Mechanism_Answer.BackColor = Color.FromKnownColor(KnownColor.Control);
+            TextBox_Conditions_Answer.BackColor = Color.FromKnownColor(KnownColor.Control);
+            TextBox_Reactants_Answer.BackColor = Color.FromKnownColor(KnownColor.Control);
+
+            Combo_Mechanism.Text = "";
+            TextBox_Conditions.Text = "";
+            TextBox_Reactants.Text = "";
+            TextBox_Mechanism_Answer.Text = "";
+            TextBox_Conditions_Answer.Text = "";
+            TextBox_Reactants_Answer.Text = "";
+
+            string prevConversion = TextBox_Conversion.Text;
+            TextBox_Conversion.Text = "";
+
+            PictureBox_Mechanism.Image = Properties.Resources.Carbon_Icon;
+
             switch (Combo_Category.SelectedIndex)
             {
                 case -1:
@@ -73,7 +89,7 @@ namespace ChemistryOrganicMechanisms
                     while (true)
                     {
                         string choice = AllConversions[random.Next(0, AllConversions.Length)].ConversionName;
-                        if (choice != TextBox_Conversion.Text)
+                        if (choice != prevConversion)
                         {
                             TextBox_Conversion.Text = choice;
                             break;
@@ -85,7 +101,7 @@ namespace ChemistryOrganicMechanisms
                     while (true)
                     {
                         string choice = AlcoholConversions[random.Next(0, AlcoholConversions.Length)].ConversionName;
-                        if (choice != TextBox_Conversion.Text)
+                        if (choice != prevConversion)
                         {
                             TextBox_Conversion.Text = choice;
                             break;
@@ -97,7 +113,7 @@ namespace ChemistryOrganicMechanisms
                     while (true)
                     {
                         string choice = HaloalkaneConversions[random.Next(0, HaloalkaneConversions.Length)].ConversionName;
-                        if (choice != TextBox_Conversion.Text)
+                        if (choice != prevConversion)
                         {
                             TextBox_Conversion.Text = choice;
                             break;
@@ -122,7 +138,7 @@ namespace ChemistryOrganicMechanisms
                     while (true)
                     {
                         string choice = CustomConversions[random.Next(0, CustomConversions.Length)].ConversionName;
-                        if ((choice != TextBox_Conversion.Text) || (indexes.Count == 1))
+                        if ((choice != prevConversion) || (indexes.Count == 1))
                         {
                             TextBox_Conversion.Text = choice;
                             break;
@@ -154,19 +170,6 @@ namespace ChemistryOrganicMechanisms
                 Label_Mechanism_Answer.Visible = true;
                 TextBox_Mechanism_Answer.Visible = true;
             }
-
-            TextBox_Mechanism_Answer.BackColor = Color.FromKnownColor(KnownColor.Control);
-            TextBox_Conditions_Answer.BackColor = Color.FromKnownColor(KnownColor.Control);
-            TextBox_Reactants_Answer.BackColor = Color.FromKnownColor(KnownColor.Control);
-
-            Combo_Mechanism.Text = "";
-            TextBox_Conditions.Text = "";
-            TextBox_Reactants.Text = "";
-            TextBox_Mechanism_Answer.Text = "";
-            TextBox_Conditions_Answer.Text = "";
-            TextBox_Reactants_Answer.Text = "";
-
-            PictureBox_Mechanism.Image = Properties.Resources.Carbon_Icon;
         }
 
         private void Button_Check_Answer_Click(object sender, EventArgs e)
