@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace ChemistryOrganicMechanisms
+﻿namespace ChemistryOrganicMechanisms
 {
     public partial class Form_Edit_Category : Form
     {
@@ -67,6 +57,15 @@ namespace ChemistryOrganicMechanisms
             }
 
             Hide();
+        }
+
+        private void Form_Edit_Category_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
         }
 
         public static List<int> Checked { get => _checked; }

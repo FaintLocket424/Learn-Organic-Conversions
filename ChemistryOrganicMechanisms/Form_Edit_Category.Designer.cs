@@ -219,6 +219,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Edit_Category";
             this.Text = "Edit";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Edit_Category_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
